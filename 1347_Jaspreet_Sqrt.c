@@ -1,14 +1,15 @@
 #include <stdio.h>
+
 float squareRoot(int n, int p)
 {
     //binary search for integral part of square root
 	int start=0,end=n;
 	int mid;
     double ans;
-	while (start<=end) {
-		mid=(start+end)/2;
-		if (mid*mid==n) {
-			ans=mid;
+	while (start <= end) {
+		mid = (start + end) /2;
+		if (mid * mid == n) {
+			ans = mid;
 			return ans;
 		}
 		if (mid * mid < n) {

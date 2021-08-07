@@ -13,13 +13,15 @@
  *	https://www.geeksforgeeks.org/bool-in-c/
  * )
  */
+
 // Program to implement sorting algos on array of integers and analyze their runtime complexities.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #include <sys/time.h>
 
-// returns epoch (from 1970)time elapsed 
+// returns epoch (Since 1970)time elapsed 
 long int timeElapsed()
 {
     struct timeval time;
