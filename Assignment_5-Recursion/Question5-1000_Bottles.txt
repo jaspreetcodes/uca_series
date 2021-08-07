@@ -1,0 +1,2 @@
+
+101010101 = 256 + 64 + 16 + 4 + 1 = 341. Hence, bottle number 341 was the poisonous bottle. Because there are 10 prisoners and each prisoner has two states (dead or alive), this system has a grand total of 1,024 different combinations.
