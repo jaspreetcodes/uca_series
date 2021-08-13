@@ -1,16 +1,14 @@
 /**
- * Program to implement sorting algos on array of integers and analyze their run
- * time complexities.
+ * Program to implement sorting algos on array of integers and count no of inversions possible.
  * 
- * Compilation: gcc sorting.c
- * Execution:   ./
+ * Compilation: gcc Question1_InversionCount.c -o Question1_InversionCount
+ * Execution:   ./Question1_InversionCount
  *
- * @Jaspreet_Singh (1910991347), 28th july 2021
- * Day2_Coding_Assignment/ Analyzing runtime complexities of sorts problem ...
+ * @Jaspreet_Singh (1910991347), 11th august 2021
+ * Assignment_7-SortingAlgos Count of Inversions/ 
  *
  * (resources)
  */
-// Program to implement sorting algos on array of integers and analyze their runtime complexities.
 
 #include <stdio.h>
 #include <stdbool.h>
@@ -65,13 +63,11 @@ int main()
 /* Performs sorting
  *
  * Parameters
+ * n : Array length
+ * a[n] : Array
+ * i ,j : variables for iterative progression
  *
- * avgtbs: average case time elapsed in bubble sort( random )
- * besttis: best case time elapsed in bubble sort( sorted )
- * worsttis: worst case time elapsed in selection sort( reverse sorted )
  *
- * Prints best, worst, avg case times of all 4 algos
+ * Prints inversion count. 
  *
 */
-
-
